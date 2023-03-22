@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+
+.header {
+  background: url("../images/wedding_couple.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  filter: grayscale(50%);
+  position: relative;
+  display: flex;
+}
+
+.imgedesc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 4px;
+  color: #fff;
+  text-align: center;
+}
+
+.imgedesc h1 {
+  font-size: 64px;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+.imgedesc h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+b {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+#sect2 {
+  color: black;
+  font-size: 15px;
+  background: #fdd;
+  padding: 64px 16px;
+  filter: grayscale(50%);
+}
+
+.title1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.title1 b {
+  color: #757575;
+}
+
+.imag {
+  text-align: center;
+}
+
+.imgec2 {
+  margin: 32px 0;
+  vertical-align: middle;
+  filter: grayscale(50%);
+  border-radius: 4px;
+  border-style: none;
+  overflow: clip;
+  width: 100%;
+}
+
+.imag p {
+  font-size: 15px;
+  margin: 15px 14%;
+  color: #000;
+  text-align: left;
+  line-height: 2;
+}
+
+.btndetail {
+  color: #fff;
+  font-size: 18px;
+  background-color: #000;
+  padding: 20px 30px;
+  cursor: pointer;
+  margin-left: 45%;
+  margin-top: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.flower {
+  background: url("../images/flowers.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.flower-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.flower-desc h1 {
+  margin-bottom: 30px;
+  width: 443.59px;
+  height: 96px;
+  font-size: 64px;
+}
+
+.flower-desc h2 {
+  margin: 10px 0;
+  width: 443.59px;
+  height: 96px;
+  font-size: 30px;
+}
+
+#sect4 {
+  color: black;
+  font-size: 15px;
+  background: #fdd;
+  padding: 64px 16px;
+  filter: grayscale(50%);
+  position: relative;
+}
+
+.sect4-title {
+  color: #757575;
+  font-size: 64px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sect4-imag {
+  text-align: center;
+}
+
+.sect4-imgec2 {
+  margin: 32px 0;
+  vertical-align: middle;
+  filter: grayscale(50%);
+  border-radius: 4px;
+  border-style: none;
+  width: 80%;
+}
+
+.locat-desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 23%;
+}
+
+.locat-desc-desc1 p {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.locat-desc-desc2 p {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.locat-desc h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+#sect5 {
+  background: #fdd;
+  padding: 64px 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+  height: 50%;
+}
+
+#sect5 h4 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+#sect5 p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 18px 0 20px;
+}
+
+.sect5-btn {
+  font-size: 24px;
+  border-radius: 4px;
+  opacity: 0.6;
+  color: #fff;
+  background-color: #f44336;
+  padding: 17px 60px;
+  border: none;
+  cursor: pointer;
+}
+
+#sect5 button:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  box-sizing: inherit;
+  font-size: 15px;
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 23px;
+}
+
+footer p {
+  margin: 18px 0;
+}
+
+footer p a {
+  color: #fff;
+}
+
+/* 
+
+.navbar {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+} */
+
+.in-navbar {
+  color: #000;
+  background: #fff;
+  padding: 12px 15px;
+  text-align: center;
+  opacity: 0.75;
+  width: 100%;
+  display: inline-flex;
+  bottom: 0;
+  position: fixed;
+}
+
+.navbar-btn {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 100px;
+  width: 25%;
+  color: #000;
+}
+
+.navbar-btn:hover {
+  background-color: #ccc;
+}
+
+a.navbar-hover-black {
+  width: 32%;
+}
+
+.navbar-hover-black:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.in-navbar:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .sect4-imag {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .header {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .flower {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .div-img {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .imgec2 {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .imag p {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #000;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .btndetail {
+    margin-left: 35%;
+  }
+
+  .navbar-btn {
+    font-weight: 400;
+    padding: 8px 30px;
+    box-sizing: border-box;
+    width: 27%;
+    font-weight: 400;
+  }
+
+  .in-navbar {
+    overflow: hidden;
+    height: 30px;
+    padding: 16px 15px;
+    position: fixed;
+  }
+
+  footer {
+    height: 50px;
+    padding: 22px;
+    margin-bottom: 25px;
+  }
+
+  a.navbar-hover-black {
+    width: 17%;
+  }
+
+  a.navbar-btn1 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .in-navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-btn {
+    font-weight: 400;
+    padding: 8px 40px;
+  }
+
+  .in-navbar {
+    overflow: hidden;
+  }
+}
