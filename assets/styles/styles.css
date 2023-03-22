@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #000;
 }
@@ -246,10 +246,6 @@ footer {
   margin-bottom: 23px;
 }
 
-footer p {
-  margin: 18px 0;
-}
-
 footer p a {
   color: #fff;
 }
@@ -322,6 +318,10 @@ a.navbar-hover-black {
     overflow-x: hidden;
   }
 
+  footer p {
+  margin: 18px 0;
+  }
+
   .imag p {
     font-size: 15px;
     margin: 15px 0;
@@ -339,7 +339,6 @@ a.navbar-hover-black {
     padding: 8px 30px;
     box-sizing: border-box;
     width: 27%;
-    font-weight: 400;
   }
 
   .in-navbar {
