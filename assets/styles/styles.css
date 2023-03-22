@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 15px;
   color: #000;
 }
@@ -319,7 +319,7 @@ a.navbar-hover-black {
   }
 
   footer p {
-  margin: 18px 0;
+    margin: 18px 0;
   }
 
   .imag p {
