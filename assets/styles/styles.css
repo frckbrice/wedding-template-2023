@@ -331,7 +331,8 @@ a.navbar-hover-black {
   }
 
   .btndetail {
-    margin-left: 35%;
+    width: auto;
+    margin-left: 24%;
   }
 
   .navbar-btn {
